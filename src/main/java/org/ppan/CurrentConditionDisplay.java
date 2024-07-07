@@ -1,6 +1,11 @@
 package org.ppan;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class CurrentConditionDisplay implements Observer, DisplayElement {
+    private static final Logger logger = LoggerFactory.getLogger(CurrentConditionDisplay.class);
+
     private Subject subject;
     private int temperature;
     private int humidity;
@@ -8,9 +13,7 @@ public class CurrentConditionDisplay implements Observer, DisplayElement {
 
     public CurrentConditionDisplay(Subject subject) {
         this.subject = subject;
-        System.out.println("hey");
         subject.registerObserver(this);
-        System.out.println("mm");
     }
 
     @Override
@@ -26,6 +29,6 @@ public class CurrentConditionDisplay implements Observer, DisplayElement {
 
     @Override
     public void display() {
-        System.out.printf("Current Conditions are: temperature=%d C, humidity=%d %%, windspeed=%d kmph\n", temperature, humidity, windSpeed);
+        logger.info("Current Conditions are: temperature={}C, humidity={}%, windspeed={}kmph", temperature, humidity, windSpeed);
     }
 }

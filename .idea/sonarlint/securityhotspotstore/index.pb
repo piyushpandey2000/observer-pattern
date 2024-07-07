@@ -1,21 +1,9 @@
 
 S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
-]
--.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
-S
 #src/main/java/org/ppan/Subject.java,d/0/d03d3b8f107ee55bb31c1f7d0fa640208689859e
-T
-$src/main/java/org/ppan/Observer.java,e/6/e6d099360e9b4047675a0b7a9ebee7458cca299f
 Z
 *src/main/java/org/ppan/DisplayElement.java,f/3/f3042c0e0f4bc0de9be6646a95ba0b6b7d84de9a
 X
 (src/main/java/org/ppan/WeatherStats.java,0/0/0079b9b5f3624ca8c9e60b904cc0a011b512c6e5
-c
-3src/main/java/org/ppan/CurrentConditionDisplay.java,a/c/ac28a0fbb7bca22488e00acdd50c121b500bb3cd
-W
-'src/main/java/org/ppan/WeatherData.java,1/b/1b6e345067a1b05ef235cc6ae87ccea075acde50
-P
- src/main/java/org/ppan/Main.java,8/7/879698482f3cd3ce5e380d2b5287f675fe00c312
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
